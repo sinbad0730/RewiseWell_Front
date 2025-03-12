@@ -1,0 +1,88 @@
+.charts-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    padding: 20px;
+}
+
+.subjects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.subject-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 50px;
+    border-radius: 8px;
+    width: 90%;
+    /* Slightly reduce width to prevent overflow */
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.units-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    /* flex-wrap: wrap; */
+}
+
+.chart-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    margin: 10px;
+}
+
+.chart {
+    position: relative;
+    width: 150px;
+    /* Reduced size of the pie charts */
+    height: 150px;
+    /* Reduced size of the pie charts */
+}
+
+.center-text {
+    margin-top: 70px;
+    /* Add margin to place text at the bottom */
+    font-size: 14px;
+    /* Adjusted font size */
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    /* Adjusted font size */
+    font-weight: bold;
+    pointer-events: none;
+    color: #000;
+    /* Ensure text color is clear */
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+h3 {
+    margin-bottom: 5px;
+    font-size: 16px;
+    /* Adjusted font size */
+    color: #666;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    /* Adjust as needed to prevent wrapping */
+    text-align: center;
+    /* Center the text */
+}

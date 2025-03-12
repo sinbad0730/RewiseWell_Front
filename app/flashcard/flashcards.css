@@ -1,0 +1,95 @@
+/* flashcards.css */
+.flashcards-container {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.flashcard {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 31px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.show-incorrect-button {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #FF6692;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 28px;
+  height: 49px;
+  width: 195px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-retest-button {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #FFB900;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 28px;
+  height: 49px;
+  width: 195px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.show-save-button {
+  margin-top: 30px;
+  text-align: center;
+  background-color: #00ceb6;
+  color: #fff;
+  border: 1px solid;
+  border-radius: 28px;
+  height: 49px;
+  width: 195px;
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ant-modal-title {
+  color: #7b8893 !important;
+  font-size: 25px !important;
+  font-weight: 700;
+}
+
+.incorrect-word {
+  color: #FF6692 !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.flashcard h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.flashcard p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.flashcard button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.flashcard button:hover {
+  background-color: #ddd;
+}

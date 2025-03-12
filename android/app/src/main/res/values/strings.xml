@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Revisewell</string>
+    <string name="title_activity_main">Revisewell</string>
+    <string name="package_name">com.revisewell.com</string>
+    <string name="custom_url_scheme">com.revisewell.com</string>
+</resources>
